@@ -54,7 +54,7 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 4. Chooses  **complaint** status.
 5.Additional feedback field is available
 6. Clicking the **Calculate Trust Score**
-7.  7. The result is displayed instantly on the dashboard.
+7.  The result is displayed instantly on the dashboard.
 
 ---
 
@@ -62,7 +62,7 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 - **Frontend:** HTML, CSS, JavaScript
 - **Storage:** Browser memory (LocalStorage can be added later)
 - **Compatibility:** Desktop and mobile browsers
-- **Future backend:** Solidity smart contracts (Phase 2+)
+- **Future backend:** Database inclusion and Solidity smart contracts (Phase 2+)
 
 
 ---
@@ -87,10 +87,10 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 3. Enter a business name, customer rating, delivery status, and complaint status.
 4. Click **Calculate Trust Score** to see the result.
 
-> **Note:** Currently Phase 1 runs locally. Hosting online (GitHub Pages, Netlify, or Vercel) is required for public mobile access.
+ > **Note:** Currently Phase 1 runs locally. Hosting online  is required for public mobile access.
 
 ---
 
 ## Author
-- C0mrade-KE , Derick Spoiler and NEXUS COLLECTIVE team
+- C0mrade-Ke , Derick Spoiler and NEXUS COLLECTIVE team
 - Phase 1 implementation: frontend dashboard and trust calculation logic
