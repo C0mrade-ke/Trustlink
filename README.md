@@ -62,7 +62,7 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 - **Frontend:** HTML, CSS, JavaScript
 - **Storage:** Browser memory (LocalStorage can be added later)
 - **Compatibility:** Desktop and mobile browsers
-- **Future backend:** Database inclusion and Solidity smart contracts (Phase 2+)
+- **Future backend:** Database inclusion and Solidity smart contracts 
 
 
 ---
