@@ -37,9 +37,9 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 ## Features
 - Input fields for:
   - Business Name
-  - Customer Rating (1–5)
-  - Delivery Confirmation (Yes/No)
-  - Complaint (Yes/No)
+  - Customer Rating 
+  - Delivery Confirmation 
+  - Complaint 
   - Additional Feedback Field
 - Automatic calculation of **Trust Score**
 - Dynamic display of Trust Score on the dashboard
@@ -93,4 +93,4 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 
 ## Author
 - C0mrade-Ke , Derick Spoiler and NEXUS COLLECTIVE team
-- Phase 1 implementation: frontend dashboard and trust calculation logic
+  
