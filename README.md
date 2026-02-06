@@ -52,7 +52,7 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 2. Selects a **rating**
 3. Chooses **delivery**
 4. Chooses  **complaint** status.
-5.Additional feedback field is available
+5. Additional feedback field is available
 6. Clicking the **Calculate Trust Score**
 7.  The result is displayed instantly on the dashboard.
 
