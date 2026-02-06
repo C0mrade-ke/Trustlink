@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TrustLink</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- LOGIN -->
+<div id="login" class="page card">
+  <h2>TrustLink Login</h2>
+  <input type="text" placeholder="Username">
+  <input type="password" placeholder="Password">
+  <button id="loginBtn">Login</button>
+  <p>Don't have an account? <a id="toSignup">Create account</a></p>
+</div>
+
+<!-- MFA -->
+<div id="mfa" class="page card">
+  <h2>Multi-Factor Authentication</h2>
+  <p>Enter the 6-digit code sent to your device</p>
+  <input type="number" id="otp" placeholder="Enter OTP">
+  <button id="verifyOtp">Verify</button>
+</div>
+
+<!-- SIGNUP -->
+<div id="signup" class="page card">
+  <h2>Create Account</h2>
+  <input type="text" placeholder="Username">
+  <input type="password" placeholder="Password">
+  <button>Register</button>
+  <p>Already have an account? <a id="toLogin">Login</a></p>
+</div>
+
+<!-- HOME / DASHBOARD -->
+<div id="home" class="page full">
+  <header>
+    <h1>TrustLink Business Trust Dashboard</h1>
+    <button id="logoutBtn">Logout</button>
+  </header>
+
+  <section class="trust-form">
+    <h2>Check Business Trust Score</h2>
+
+    <input type="text" id="businessName" placeholder="Business name">
+    <input type="number" id="rating" min="1" max="5" placeholder="Rating (1–5)">
+
+    <select id="delivery">
+      <option value="yes">Delivery confirmed</option>
+      <option value="no">Not delivered</option>
+    </select>
+
+    <select id="complaint">
+      <option value="no">No complaint</option>
+      <option value="yes">Complaint reported</option>
+    </select>
+    
+    <!-- Additional Review -->
+<div id="additionalReview" style="display:none;">
+  <h3>Additional Review / Feedback</h3>
+  <textarea id="feedbackText" placeholder="Describe your experience (optional)..."></textarea>
+  <button id="sendFeedback">Submit Feedback</button>
+</div>
+
+    
+    
+    <button id="calcBtn">Calculate Trust</button>
+
+    <h3>Trust Score: <span id="score">—</span></h3>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews">
+    <h2>Customer’s Reviews</h2>
+
+    <div class="review good">
+      <h4>John</h4>
+      <p>Ordered electronics from <b>BrightTech Solutions</b>. Delivery was fast and customer service was excellent. Highly trusted.</p>
+    </div>
+
+    <div class="review good">
+      <h4>Mary</h4>
+      <p><b>GreenMart Online</b> has never disappointed me. Payments are secure and products match descriptions.</p>
+    </div>
+
+    <div class="review bad">
+      <h4>Derrick</h4>
+      <p><b>QuickDeals Africa</b> is a scam. I paid and never received my order. Support stopped responding.</p>
+    </div>
+
+    <div class="review bad">
+      <h4>Susan</h4>
+      <p>Avoid <b>FastCash Stores</b>. Fake reviews, fake promises. Lost my money.</p>
+    </div>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
