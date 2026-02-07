@@ -91,6 +91,16 @@ This prototype allows businesses to see a measurable trust metric on a simple da
 
 ---
 
-## Author
-- C0mrade-Ke , Derick Spoiler and NEXUS COLLECTIVE team
+## Authors
+- [derick-musyoki](https://github.com/derick-musyoki)
+
   
+- [C0mrade-Ke](https://github.com/c0mrade-ke)
+
+
+
+-  NEXUS COLLECTIVE team
+  
+
+
+
